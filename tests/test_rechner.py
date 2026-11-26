@@ -4,7 +4,7 @@ from uebung.rechner import addieren, verdoppeln
 
 
 def test_addieren() -> None:
-    assert addieren(2, 3) == 999  # absichtlich rot fuer Nachweislauf (b)
+    assert addieren(2, 3) == 5
 
 
 def test_verdoppeln() -> None:
